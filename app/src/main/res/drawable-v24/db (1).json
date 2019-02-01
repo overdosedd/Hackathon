@@ -1,0 +1,776 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "tom",
+      "password": "tom1",
+      "email": "tom@email.com",
+      "firstname": "Tom",
+      "lastname": "Nielsen",
+      "gender": "Male",
+      "dob": "1991-01-01",
+      "defaultBillingAddress": 1,
+      "defaultShippingAddress": 1
+    },
+    {
+      "id": 2,
+      "username": "dick",
+      "password": "dick1",
+      "email": "dick@email.com",
+      "firstname": "Dick",
+      "lastname": "Thompson",
+      "gender": "Male",
+      "dob": "1991-01-01",
+      "defaultBillingAddress": 3,
+      "defaultShippingAddress": 3
+    },
+    {
+      "id": 3,
+      "username": "halimin",
+      "password": "halimin1",
+      "email": "harry@email.com",
+      "firstname": "Harry",
+      "lastname": "Spears",
+      "gender": "Male",
+      "dob": "1991-01-01",
+      "defaultBillingAddress": 5,
+      "defaultShippingAddress": 5
+    },
+    {
+      "id": 5,
+      "username": "",
+      "password": "s9323312c",
+      "email": "halimin87@gmail.com",
+      "firstname": "Halimin",
+      "lastname": "Hashim",
+      "gender": "",
+      "dob": "",
+      "defaultBillingAddress": null,
+      "defaultShippingAddress": null
+    },
+    {
+      "id": 6,
+      "username": "",
+      "password": "passweord123",
+      "email": "yihan@gmail.com",
+      "firstname": "Yi Han",
+      "lastname": "Lim",
+      "gender": "",
+      "dob": "",
+      "defaultBillingAddress": null,
+      "defaultShippingAddress": null
+    }
+  ],
+  "products": [
+    {
+      "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png",
+      "name": "iPhone XS Max FaceTime Edition",
+      "price": 1300,
+      "rating": 4,
+      "id": 1,
+      "categoryId": 1,
+      "make": "Apple",
+      "quantity": 1,
+      "confirm": true,
+      "option": [
+        {
+          "title": "Storage Size",
+          "selected": "",
+          "type": [
+            {
+              "value": "64 GB"
+            },
+            {
+              "value": "128 GB"
+            },
+            {
+              "value": "256 GB"
+            }
+          ]
+        },
+        {
+          "title": "Colour",
+          "selected": "",
+          "type": [
+            {
+              "value": "Gold"
+            },
+            {
+              "value": "Space Grey"
+            },
+            {
+              "value": "Silver"
+            }
+          ]
+        }
+      ],
+      "spec": [
+        {
+          "type": "Colour",
+          "value": "Gold / Silver / Space Grey"
+        },
+        {
+          "type": "Screen Size",
+          "value": "6.5 inch / 16.5 cm"
+        },
+        {
+          "type": "Sim Count",
+          "value": "Dual Sim"
+        },
+        {
+          "type": "Network",
+          "value": "4 GB"
+        }
+      ]
+    },
+    {
+      "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-sf.png",
+      "name": "Pocophone F1",
+      "price": 600,
+      "rating": 4,
+      "id": 2,
+      "categoryId": 1,
+      "make": "Xiaomi",
+      "quantity": 1,
+      "confirm": true,
+      "option": [
+        {
+          "title": "Colour",
+          "selected": "",
+          "type": [
+            {
+              "value": "Graphite Black"
+            },
+            {
+              "value": "Steel Blue"
+            },
+            {
+              "value": "Rosso Red"
+            },
+            {
+              "value": "Armored Edition with Kevlar"
+            }
+          ]
+        }
+      ],
+      "spec": [
+        {
+          "type": "Colour",
+          "value": "Gold / Silver / Space Grey"
+        },
+        {
+          "type": "Screen Size",
+          "value": "6.5 inch / 16.5 cm"
+        },
+        {
+          "type": "Sim Count",
+          "value": "Dual Sim"
+        },
+        {
+          "type": "Network",
+          "value": "4 GB"
+        }
+      ]
+    },
+    {
+      "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-amsterdam.png",
+      "name": "Pixel 3 XL",
+      "price": 1200,
+      "rating": 4,
+      "id": 3,
+      "categoryId": 1,
+      "make": "Google",
+      "quantity": 1,
+      "confirm": true,
+      "option": [
+        {
+          "title": "Storage Size",
+          "selected": "",
+          "type": [
+            {
+              "value": "64 GB"
+            },
+            {
+              "value": "128 GB"
+            }
+          ]
+        },
+        {
+          "title": "Colour",
+          "selected": "",
+          "type": [
+            {
+              "value": "Clearly White"
+            },
+            {
+              "value": "Just Black"
+            },
+            {
+              "value": "Not Pink"
+            }
+          ]
+        }
+      ],
+      "spec": [
+        {
+          "type": "Colour",
+          "value": "Gold / Silver / Space Grey"
+        },
+        {
+          "type": "Screen Size",
+          "value": "6.5 inch / 16.5 cm"
+        },
+        {
+          "type": "Sim Count",
+          "value": "Dual Sim"
+        },
+        {
+          "type": "Network",
+          "value": "4 GB"
+        }
+      ]
+    },
+    {
+      "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-sf.png",
+      "price": 800,
+      "name": "OnePlus 6T",
+      "rating": 5,
+      "id": 4,
+      "categoryId": 1,
+      "make": "OnePlus",
+      "quantity": 1,
+      "confirm": true,
+      "option": [
+        {
+          "title": "Colour",
+          "selected": "",
+          "type": [
+            {
+              "value": "Thunder Purple"
+            },
+            {
+              "value": "Mirror Black"
+            },
+            {
+              "value": "Midnight Black"
+            }
+          ]
+        }
+      ],
+      "spec": [
+        {
+          "type": "Colour",
+          "value": "Gold / Silver / Space Grey"
+        },
+        {
+          "type": "Screen Size",
+          "value": "6.5 inch / 16.5 cm"
+        },
+        {
+          "type": "Sim Count",
+          "value": "Dual Sim"
+        },
+        {
+          "type": "Network",
+          "value": "4 GB"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Electronics",
+      "id": 1
+    },
+    {
+      "name": "Fashion",
+      "id": 2
+    },
+    {
+      "name": "Home and Kitchen",
+      "id": 3
+    },
+    {
+      "name": "Beauty",
+      "id": 4
+    },
+    {
+      "name": "Baby",
+      "id": 5
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "userId": 1,
+      "country": "TomCountry",
+      "fullName": "Tom Neilsen",
+      "streetAddress1": "Block 111 Tomville Street 11",
+      "streetAddress2": "#11-11",
+      "city": "TomCity",
+      "state": "TomState",
+      "zipCode": "111111",
+      "phoneNumber": "11111111",
+      "default": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "country": "TomCountry",
+      "fullName": "Tom Neilsen",
+      "streetAddress1": "Block 222 Tomville Street 22",
+      "streetAddress2": "#22-22",
+      "city": "TomCity",
+      "state": "TomState",
+      "zipCode": "222222",
+      "phoneNumber": "22222222",
+      "default": false
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "country": "DickCountry",
+      "fullName": "Dick Thompson",
+      "streetAddress1": "Block 111 Dickville Street 11",
+      "streetAddress2": "#11-11",
+      "city": "DickCity",
+      "state": "DickState",
+      "zipCode": "111111",
+      "phoneNumber": "11111111",
+      "default": true
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "country": "DickCountry",
+      "fullName": "Dick Thompson",
+      "streetAddress1": "Block 222 Dickville Street 22",
+      "streetAddress2": "#22-22",
+      "city": "DickCity",
+      "state": "DickState",
+      "zipCode": "222222",
+      "phoneNumber": "22222222",
+      "default": false
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "country": "HarryCountry",
+      "fullName": "Harry Spears",
+      "streetAddress1": "Block 111 Harryville Street 11",
+      "streetAddress2": "#11-11",
+      "city": "HarryCity",
+      "state": "HarryState",
+      "zipCode": "111111",
+      "phoneNumber": "11111111",
+      "default": true
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "country": "HarryCountry",
+      "fullName": "Harry Spears",
+      "streetAddress1": "Block 222 Harryville Street 22",
+      "streetAddress2": "#22-22",
+      "city": "HarryCity",
+      "state": "HarryState",
+      "zipCode": "222222",
+      "phoneNumber": "22222222",
+      "default": false
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "01-01-2018 00:00:00 Hrs",
+      "status": "Delivered",
+      "products": [
+        {
+          "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png",
+          "name": "iPhone XS Max FaceTime Edition",
+          "price": 1300,
+          "rating": 4,
+          "id": 1,
+          "categoryId": 1,
+          "make": "Apple",
+          "quantity": 1,
+          "confirm": true,
+          "option": [
+            {
+              "title": "Storage Size",
+              "selected": "256 GB",
+              "type": [
+                {
+                  "value": "64 GB"
+                },
+                {
+                  "value": "128 GB"
+                },
+                {
+                  "value": "256 GB"
+                }
+              ]
+            },
+            {
+              "title": "Colour",
+              "selected": "Space Grey",
+              "type": [
+                {
+                  "value": "Gold"
+                },
+                {
+                  "value": "Space Grey"
+                },
+                {
+                  "value": "Silver"
+                }
+              ]
+            }
+          ],
+          "spec": [
+            {
+              "type": "Colour",
+              "value": "Gold / Silver / Space Grey"
+            },
+            {
+              "type": "Screen Size",
+              "value": "6.5 inch / 16.5 cm"
+            },
+            {
+              "type": "Sim Count",
+              "value": "Dual Sim"
+            },
+            {
+              "type": "Network",
+              "value": "4 GB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "date": "01-01-2018 00:00:00 Hrs",
+      "status": "Delivering",
+      "products": [
+        {
+          "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png",
+          "name": "iPhone XS Max FaceTime Edition",
+          "price": 1300,
+          "rating": 4,
+          "id": 1,
+          "categoryId": 1,
+          "make": "Apple",
+          "quantity": 1,
+          "confirm": true,
+          "option": [
+            {
+              "title": "Storage Size",
+              "selected": "256 GB",
+              "type": [
+                {
+                  "value": "64 GB"
+                },
+                {
+                  "value": "128 GB"
+                },
+                {
+                  "value": "256 GB"
+                }
+              ]
+            },
+            {
+              "title": "Colour",
+              "selected": "Space Grey",
+              "type": [
+                {
+                  "value": "Gold"
+                },
+                {
+                  "value": "Space Grey"
+                },
+                {
+                  "value": "Silver"
+                }
+              ]
+            }
+          ],
+          "spec": [
+            {
+              "type": "Colour",
+              "value": "Gold / Silver / Space Grey"
+            },
+            {
+              "type": "Screen Size",
+              "value": "6.5 inch / 16.5 cm"
+            },
+            {
+              "type": "Sim Count",
+              "value": "Dual Sim"
+            },
+            {
+              "type": "Network",
+              "value": "4 GB"
+            }
+          ]
+        },
+        {
+          "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png",
+          "name": "iPhone XS Max FaceTime Edition",
+          "price": 1300,
+          "rating": 4,
+          "id": 1,
+          "categoryId": 1,
+          "make": "Apple",
+          "quantity": 1,
+          "confirm": true,
+          "option": [
+            {
+              "title": "Storage Size",
+              "selected": "128 GB",
+              "type": [
+                {
+                  "value": "64 GB"
+                },
+                {
+                  "value": "128 GB"
+                },
+                {
+                  "value": "256 GB"
+                }
+              ]
+            },
+            {
+              "title": "Colour",
+              "selected": "Gold",
+              "type": [
+                {
+                  "value": "Gold"
+                },
+                {
+                  "value": "Space Grey"
+                },
+                {
+                  "value": "Silver"
+                }
+              ]
+            }
+          ],
+          "spec": [
+            {
+              "type": "Colour",
+              "value": "Gold / Silver / Space Grey"
+            },
+            {
+              "type": "Screen Size",
+              "value": "6.5 inch / 16.5 cm"
+            },
+            {
+              "type": "Sim Count",
+              "value": "Dual Sim"
+            },
+            {
+              "type": "Network",
+              "value": "4 GB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "date": "01-01-2018 00:00:00 Hrs",
+      "status": "Delivering",
+      "products": [
+        {
+          "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png",
+          "name": "iPhone XS Max FaceTime Edition",
+          "price": 1300,
+          "rating": 4,
+          "id": 1,
+          "categoryId": 1,
+          "make": "Apple",
+          "quantity": 1,
+          "confirm": true,
+          "option": [
+            {
+              "title": "Storage Size",
+              "selected": "256 GB",
+              "type": [
+                {
+                  "value": "64 GB"
+                },
+                {
+                  "value": "128 GB"
+                },
+                {
+                  "value": "256 GB"
+                }
+              ]
+            },
+            {
+              "title": "Colour",
+              "selected": "Space Grey",
+              "type": [
+                {
+                  "value": "Gold"
+                },
+                {
+                  "value": "Space Grey"
+                },
+                {
+                  "value": "Silver"
+                }
+              ]
+            }
+          ],
+          "spec": [
+            {
+              "type": "Colour",
+              "value": "Gold / Silver / Space Grey"
+            },
+            {
+              "type": "Screen Size",
+              "value": "6.5 inch / 16.5 cm"
+            },
+            {
+              "type": "Sim Count",
+              "value": "Dual Sim"
+            },
+            {
+              "type": "Network",
+              "value": "4 GB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "date": "01-01-2018 00:00:00 Hrs",
+      "status": "Delivering",
+      "products": [
+        {
+          "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png",
+          "name": "iPhone XS Max FaceTime Edition",
+          "price": 1300,
+          "rating": 4,
+          "id": 1,
+          "categoryId": 1,
+          "make": "Apple",
+          "quantity": 1,
+          "confirm": true,
+          "option": [
+            {
+              "title": "Storage Size",
+              "selected": "256 GB",
+              "type": [
+                {
+                  "value": "64 GB"
+                },
+                {
+                  "value": "128 GB"
+                },
+                {
+                  "value": "256 GB"
+                }
+              ]
+            },
+            {
+              "title": "Colour",
+              "selected": "Space Grey",
+              "type": [
+                {
+                  "value": "Gold"
+                },
+                {
+                  "value": "Space Grey"
+                },
+                {
+                  "value": "Silver"
+                }
+              ]
+            }
+          ],
+          "spec": [
+            {
+              "type": "Colour",
+              "value": "Gold / Silver / Space Grey"
+            },
+            {
+              "type": "Screen Size",
+              "value": "6.5 inch / 16.5 cm"
+            },
+            {
+              "type": "Sim Count",
+              "value": "Dual Sim"
+            },
+            {
+              "type": "Network",
+              "value": "4 GB"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "userId": 5,
+      "product": {
+        "image": "https://ionicframework.com/dist/preview-app/www/assets/img/card-sf.png",
+        "name": "Pocophone F1",
+        "price": 600,
+        "rating": 4,
+        "id": 2,
+        "categoryId": 1,
+        "make": "Xiaomi",
+        "quantity": 1,
+        "confirm": true,
+        "option": [
+          {
+            "title": "Colour",
+            "selected": "Graphite Black",
+            "type": [
+              {
+                "value": "Graphite Black"
+              },
+              {
+                "value": "Steel Blue"
+              },
+              {
+                "value": "Rosso Red"
+              },
+              {
+                "value": "Armored Edition with Kevlar"
+              }
+            ]
+          }
+        ],
+        "spec": [
+          {
+            "type": "Colour",
+            "value": "Gold / Silver / Space Grey"
+          },
+          {
+            "type": "Screen Size",
+            "value": "6.5 inch / 16.5 cm"
+          },
+          {
+            "type": "Sim Count",
+            "value": "Dual Sim"
+          },
+          {
+            "type": "Network",
+            "value": "4 GB"
+          }
+        ]
+      },
+      "id": 2
+    }
+  ]
+}
